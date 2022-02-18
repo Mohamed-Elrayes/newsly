@@ -1,0 +1,40 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/test": true,
+        "**/web": true,
+        "**/.gitignore": false,
+        "**/.metadata": true,
+        "**/.packages": true,
+        "**/.dart_tool": true,
+        "**/.idea": true,
+        "**/android": false,
+        "**/.vscode": true,
+        "**/ios": true,
+        "*.yaml": false,
+        "**/analysis_options.yaml": true,
+        "*.iml": true,
+        "*.lock": true,
+        "*.md": true,
+        "**/build": false
+    },
+    "explorerExclude.backup": null,
+    "cSpell.words": [
+        "Authstate",
+        "autocorrect",
+        "autofocus",
+        "Fontisto",
+        "Formz",
+        "horiz",
+        "Ionicons",
+        "newsly",
+        "Themo",
+        "timeago",
+        "vsync"
+    ]
+}
