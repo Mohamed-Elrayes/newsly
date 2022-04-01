@@ -2,15 +2,40 @@
 
 A new Flutter project.
 
-## Getting Started
+#### Screens
 
-This project is a starting point for a Flutter application.
+<img src="https://github.com/Mohamed-Elrayes/newsly/blob/master/screen_shots/article.jpg?raw=true" title="source: imgur.com"  />
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+  
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+> Folder structure 
+```
+lib
+ ┣ core
+ ┃ ┣ constants
+ ┃ ┣ route
+ ┃ ┣ theme
+ ┃ ┗ core.dart
+ ┣ data
+ ┃ ┣ data_providers
+ ┃ ┣ error
+ ┃ ┣ models
+ ┃ ┣ repositories
+ ┃ ┗ data.dart
+ ┣ logic
+ ┃ ┣ bloc
+ ┃ ┣ cubit
+ ┃ ┗ debug
+ ┃ ┃ ┣ app_bloc_observer.dart
+ ┃ ┃ ┗ debug.dart
+ ┣ presentation
+ ┃ ┣ pages
+ ┃ ┣ screens
+ ┃ ┣ widgets
+ ┃ ┣ initialize_app.dart
+ ┃ ┣ news_app.dart
+ ┃ ┗ presentation.dart
+ ┣ generated_plugin_registrant.dart
+ ┗ main.dart
+ ```
